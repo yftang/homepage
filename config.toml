@@ -1,0 +1,82 @@
+# Site settings
+baseurl = "samtang.me" #without ending slash
+languageCode = "en-us"
+theme = "hugo-identity-theme"
+title = "Sam Tang | Bioinformatician"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+
+	# Images settings
+	# Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+	# You may place your images in corresponding folders and then set only filenames below to
+	# change page's appearance
+
+	favicon = "favicon.ico"
+	appletouchicon = "apple-touch-icon-precomposed.png"
+	background = "bg1.jpg"
+
+  # Custom styling
+  # To customize the styling of this theme, uncomment and edit the following line to point
+  # to your site's css in the assets/ directory.
+
+  # custom_css = ["css/foo.bar"]
+
+	# Personal settings
+
+  name = "Sam Tang"
+	position = "Bioinformatician"
+	email = "tyf@outlook.com"
+	avatar = "sam.png"
+
+	# Contact form settings
+	[params.contact]
+		enable = false
+		formTitle = "Touch Me!"
+		namePlaceholder = "Name"
+		emailPlaceholder = "Email"
+		messagePlaceholder = "Message"
+		buttonText = "Send it"
+
+	# Social settings
+	# You may change these with your social links or add others
+
+	[[params.social]]
+		title = "Email"
+		icon = "fa-envelope"
+		link = "mailto:tyf@outlook.com"
+
+	[[params.social]]
+		title = "Phone: +86 186 2196 9482"
+		icon = "fa-phone"
+
+	[[params.social]]
+		title = "Resume"
+		icon = "fa-newspaper-o"
+		link = "//yftang.github.io/online-cv"
+
+	# [[params.social]]
+	# 	title = "Wechat"
+	# 	icon = "fa-wechat"
+	# 	link = "tabgyf"
+
+	[[params.social]]
+		title = "Twitter"
+		icon = "fa-twitter"
+		link = "//twitter.com/yftang"
+
+	[[params.social]]
+		title = "Github"
+		icon = "fa-github"
+		link = "//github.com/yftang"
+
+	[[params.social]]
+		title = "Instagram"
+		icon = "fa-instagram"
+		link = "//instagram.com/samyftang"
+
+	# Footer settings
+	[params.footer]
+		copyright = "Sam Tang"
