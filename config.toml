@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "samtang.me" #without ending slash
+baseurl = "" #without ending slash
 languageCode = "en-us"
 theme = "hugo-identity-theme"
 title = "SAM Y. TANG | BI"
