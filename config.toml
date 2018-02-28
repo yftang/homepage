@@ -2,10 +2,10 @@
 baseurl = "samtang.me" #without ending slash
 languageCode = "en-us"
 theme = "hugo-identity-theme"
-title = "Sam Tang | Bioinformatician"
+title = "SAM Y. TANG | BI"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXX-Y"
+# googleAnalytics = "UA-XXXXX-Y"
 
 [params]
 
@@ -29,7 +29,7 @@ googleAnalytics = "UA-XXXXX-Y"
   name = "Sam Tang"
 	position = "Bioinformatician"
 	email = "tyf@outlook.com"
-	avatar = "sam.png"
+	avatar = "avatar-leisure-cube.png"
 
 	# Contact form settings
 	[params.contact]
@@ -49,23 +49,23 @@ googleAnalytics = "UA-XXXXX-Y"
 		link = "mailto:tyf@outlook.com"
 
 	[[params.social]]
-		title = "Phone: +86 186 2196 9482"
+		title = "Phone: +86 166 0210 2620"
 		icon = "fa-phone"
 
 	[[params.social]]
-		title = "Resume"
-		icon = "fa-newspaper-o"
-		link = "//yftang.github.io/online-cv"
+		title = "LinkedIn"
+		icon = "fa-linkedin"
+		link = "https://www.linkedin.com/in/samyftang/"
 
 	# [[params.social]]
 	# 	title = "Wechat"
 	# 	icon = "fa-wechat"
 	# 	link = "tabgyf"
 
-	[[params.social]]
-		title = "Twitter"
-		icon = "fa-twitter"
-		link = "//twitter.com/yftang"
+	# [[params.social]]
+	# 	title = "Twitter"
+	# 	icon = "fa-twitter"
+	# 	link = "//twitter.com/yftang"
 
 	[[params.social]]
 		title = "Github"
